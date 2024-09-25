@@ -47,6 +47,15 @@ section {
     margin-bottom: 20px;
 }
 
+/* Image spin effect */
+img {
+    transition: transform 0.5s ease-in-out;
+}
+
+img:hover {
+    transform: rotate(360deg);
+}
+
 /* Footer */
 footer {
     text-align: center;
